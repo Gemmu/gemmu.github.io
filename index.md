@@ -1,6 +1,6 @@
 # Homework For ICT4HM003-3001
 
-* (Part 1)[#h1]
+* [Part 1](#h1)
 
 ## h1 
 
