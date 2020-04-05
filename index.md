@@ -78,7 +78,7 @@ Goal: Get an excellet grade from this course
   2.1. Get money [I]
 3. Work really hard [P] (OR)
   3.1. Spend one hour a day studying [P] (OR) (Countermeasure: Netflix)(Counter-countermeasure: Turn off TV)
-  3.2. Spend at least on full workday studying [P] (OR) (Countermeasure: Pasttime activities)(Counter-countermeasure: Corona lockdown)
+  3.2. Spend at least on full workday studying [P] (OR) (Countermeasure: Pastime activities)(Counter-countermeasure: Corona lockdown)
 
 P = Possible
 I = Impossible
