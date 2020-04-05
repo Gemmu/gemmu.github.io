@@ -57,7 +57,7 @@ Cyber Kill Chain.
 
 **Actions On Objectives:** Downloading more malware. Possibly launching distributed denial of service (DDoS) attacs.
 
-Well, that wasn't simpler at all. Maybe I'm not as technically skilled as I thought I was. The weaponization part was a bit difficult. Would it make sense to have the chain parts in different order.
+Well, that wasn't simpler at all. Maybe I'm not as technically skilled as I thought I was. The weaponization part was a bit difficult. Would it make sense to have the chain parts in different order?
 
 ### c
 
