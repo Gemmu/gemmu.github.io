@@ -73,7 +73,8 @@ Goal: Get an excellet grade from this course
       1.1.4.1. Get money [I]
     1.1.4. Hire a guy to hack the database [P]
       1.1.4.1. Get money [I]
-2. Bribe the teacher (AND)
+      1.1.4.2. Contact someone who has the skills [I]
+2. Bribe the teacher [I :)] (OR)
   2.1. Get money [I]
 3. Work really hard [P] (OR)
   3.1. Spend one hour a day studying [P] (OR) (Countermeasure: Netflix)(Counter-countermeasure: Turn off TV)
@@ -83,7 +84,7 @@ P = Possible
 I = Impossible
 ```
 
-It seems that I'll be studying really hard. [Hacking databases is hard too](http://nedroid.com/2012/05/honk-the-databus/).
+It seems that I'll be studying really hard. ([Hacking databases is hard too](http://nedroid.com/2012/05/honk-the-databus/)).
 
 ### d
 
