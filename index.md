@@ -1,11 +1,13 @@
 # Homework For ICT4HM003-3001
 
+* (Part 1)[#h1]
+
+## h1 
+
 There was a requirement to return homework as a website link.
 So I installed Visul Studio Code and Git on to my Windows machine.
 Might as well have used the Ubuntu in VirtualBox but this is more exiting. Isn't it?
-I haven't really used Windows for coding, that is at least not with Git.
-
-## h1 
+I haven't really used Windows for coding, that is, at least not with Git.
 
 ### a
 
@@ -75,7 +77,7 @@ P = Possible
 I = Impossible
 ```
 
-It seems that I'll be studying really hard.
+It seems that I'll be studying really hard. [Hacking databases is hard too](http://nedroid.com/2012/05/honk-the-databus/).
 
 ### d
 
