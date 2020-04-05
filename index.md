@@ -2,7 +2,8 @@
 
 There was a requirement to return homework as a website link
 
-So I installed Visul Studio Code and Git on to my Windows machine. Might as well have used the Ubuntu in VirtualBOx but this is more exiting. Isn't it?
+So I installed Visul Studio Code and Git on to my Windows machine.
+Might as well have used the Ubuntu in VirtualBOx but this is more exiting. Isn't it?
 
 ## h1
 
@@ -10,7 +11,20 @@ So I installed Visul Studio Code and Git on to my Windows machine. Might as well
 
 _Pick a security incident and learn about it. Write briefly about it. Point out the concepts of threat actor, exploit, vulnerability, impact and risk_
 
+I tried not to write about Zoom, which has been so much in the news due to their 
+questionable security features. Instead I found about a security flaw in [Zyxel routers](https://krebsonsecurity.com/2020/03/zxyel-flaw-powers-new-mirai-iot-botnet-strain/).
 
+There was (and without an installse security patch still is) a security flaw that allowed attacers to access Zyxel routers and VPN firewall products.
+
+The same vulnerability was also found to be in use in a new variant of [Mirai](https://en.wikipedia.org/wiki/Mirai_(malware)) dubbed Mukashi.
+
+Mukashi was targeting Zyxel VPN firewalls and NAS's, by scanning Internet to find suitable targets.
+
+Vulnerability was in a program named `weblogin.cgi` that is in use in some [Zyxel's NAS and firewall products](https://www.zyxel.com/support/remote-code-execution-vulnerability-of-NAS-products.shtml)
+
+There are 27 models listed with available patch on Zyxels web site, but also 10 models listed as vulnerable, but without an availble fix. There was no estimate on the number of affected devices, but [according to Zyxel](https://www.zyxel.com/fi/fi/about_zyxel/company_overview.shtml) there are 100 million devices around the world in total.
+
+The vulnerability allowed for remote code execution. 
 
 ### b
 
