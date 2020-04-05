@@ -1,11 +1,11 @@
 # Homework For ICT4HM003-3001
 
-There was a requirement to return homework as a website link
-
+There was a requirement to return homework as a website link.
 So I installed Visul Studio Code and Git on to my Windows machine.
-Might as well have used the Ubuntu in VirtualBOx but this is more exiting. Isn't it?
+Might as well have used the Ubuntu in VirtualBox but this is more exiting. Isn't it?
+I haven't really used Windows for coding, that is at least not with Git.
 
-## h1
+## h1 
 
 ### a
 
@@ -14,7 +14,7 @@ _Pick a security incident and learn about it. Write briefly about it. Point out 
 I tried not to write about Zoom, which has been so much in the news due to their 
 questionable security features. Instead I found about a security flaw in [Zyxel routers](https://krebsonsecurity.com/2020/03/zxyel-flaw-powers-new-mirai-iot-botnet-strain/).
 
-There was (and without an installse security patch still is) a security flaw that allowed attacers to access Zyxel routers and VPN firewall products.
+There was (and without an install of a security patch still is) a security flaw that allowed attacers to access Zyxel routers and VPN firewall products.
 
 The same vulnerability was also found to be in use in a new variant of [Mirai](https://en.wikipedia.org/wiki/Mirai_(malware)) dubbed Mukashi.
 
