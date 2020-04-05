@@ -14,7 +14,7 @@ There was a requirement to return homework as a website link. I did not have a w
 Might as well have used the Ubuntu in VirtualBox but this is more exiting. Isn't it?
 I haven't really used Windows for coding, that is, at least not with Git.
 
-I thing the web pages only -requirement should be mentioned even before the course begins. In the preliminary mails for example. If it was mentioned I appologise, but I first saw the requirement in Moodles submission form. It came as a bit of a surprise.
+I thing the web pages only -requirement should be mentioned even before the course begins. In the preliminary email for example. If it was mentioned I appologise, but I first saw the requirement in Moodles submission form. It came as a bit of a surprise.
 
 ### a
 
