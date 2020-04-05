@@ -25,7 +25,7 @@ questionable security features. Instead I found about a security flaw in [Zyxel 
 
 There was (and without an install of a security patch still is) a security flaw that allowed attacers to access Zyxel routers and VPN firewall products.
 
-The same vulnerability was also found to be in use in a new variant of [Mirai](https://en.wikipedia.org/wiki/Mirai_(malware)) dubbed Mukashi.
+The same vulnerability was also found to be in use in a new variant of [Mirai malware code](https://en.wikipedia.org/wiki/Mirai_(malware)) dubbed Mukashi.
 
 Mukashi was targeting Zyxel VPN firewalls and NAS's, by scanning Internet to find suitable targets.
 
