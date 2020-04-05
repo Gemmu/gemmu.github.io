@@ -81,10 +81,9 @@ It seems that I'll be studying really hard.
 
 _MITTRE ATT&CK is about tactics, techniques and procedures. Give example of each from the framework._
 
-**Tactics:** 
+**Tactics:** Mobile - Initial Access. Attack vector for gaining access to a mobile device.
 
-**Techniques:**
-
+**Techniques:** There were nine techniques listed for Mobile - Initial Access, and _Lockscreen Bypass_ was one of them. Code guessing, biometric spoofing or other vulnerabilities. 
 
 ### e
 
@@ -96,4 +95,7 @@ Done and done.
 
 _Voluntary bonus: What do you consider the fundamentals of security? What are the theoretical foundations you would teach on the first day?_
 
+I don't know if there is any theory behind this, but: be informed, read the news, be consevative when adopting new technology, test your backups.
+
+Maybe the [Krebs’s 3 Basic Rules for Online Safety](https://krebsonsecurity.com/2011/05/krebss-3-basic-rules-for-online-safety/).
 
