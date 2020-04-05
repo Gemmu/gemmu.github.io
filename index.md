@@ -24,27 +24,76 @@ Vulnerability was in a program named `weblogin.cgi` that is in use in some [Zyxe
 
 There are 27 models listed with available patch on Zyxels web site, but also 10 models listed as vulnerable, but without an availble fix. There was no estimate on the number of affected devices, but [according to Zyxel](https://www.zyxel.com/fi/fi/about_zyxel/company_overview.shtml) there are 100 million devices around the world in total.
 
-The vulnerability allowed for remote code execution. 
+The vulnerability allowed for remote code execution. It is a bit unclear if the exploit required
+the affected device to have factory default or commonly-picked passwords. 
 
 ### b
 
 _Use either (Hutchins et al 2011) cyber kill chain or MITRE ATT&CK framework for analyzing the incident you used in a. You can pick any incident you want, but try to pick a source that gives you enough technical and business detail to do some analysis. (If you're in a hurry, cyber kill chain is much simpler. If you're technically skillful, you might find ATT&CK be very interesting)_
 
+I think I'm technically skillful, but I _am_ in a hurry, so let's analyze Zyxel's problem through
+Cyber Kill Chain.
+
+**Reconnaissance:** The Mukashi malware actively scans the Internet to find vulnerable devices.
+
+**Weaponization:** The Mukashi malware itself, maybe?
+
+**Delivery:** Injected through login username field [Mukashi, the new Mirai variant that targets Zyxel NAS](https://securityaffairs.co/wordpress/100116/cyber-crime/mukashi-mirai-variant-targets-zyxel.html)
+
+**Exploitation:** The `weblogin.cgi` didn't properly sanitize user input. Through this was possible to gain access to system. NAS devices also include a `setuid` utility that can be used to run any command with root privileges.
+
+**Installation:** Injected command would download more malware code to system.
+
+**Command & Control (C2):** Infected systems would report fo a control server.
+
+**Actions On Objectives:** Downloading more malware. Possibly launching distributed denial of service (DDoS) attacs.
+
+Well, that wasn't simpler at all. Maybe I'm not as technically skilled as I thought I was. The weaponization part was a bit difficult. Would it make sense to have the chain parts in different order.
+
 ### c
 
 _Use attack tree to analyze the security of some imaginary example target._
 
+```text
+Goal: Get an excellet grade from this course
+
+1. Hack the database [P] (OR)
+   1.1. Gain access to school grades system (OR)
+    1.1.1. Gain access to logged in teachers computer [I]
+    1.1.2. Steal Credentials [I]
+    1.1.3. Buy Credentials [P]
+      1.1.4.1. Get money [I]
+    1.1.4. Hire a guy to hack the database [P]
+      1.1.4.1. Get money [I]
+2. Bribe the teacher (AND)
+  2.1. Get money [I]
+3. Work really hard [P] (OR)
+  3.1. Spend one hour a day studying [P] (OR) (Countermeasure: Netflix)(Counter-countermeasure: Turn off TV)
+  3.2. Spend at least on full workday studying [P] (OR) (Countermeasure: Pasttime activities)(Counter-countermeasure: Corona lockdown)
+
+P = Possible
+I = Impossible
+```
+
+It seems that I'll be studying really hard.
+
 ### d
 
 _MITTRE ATT&CK is about tactics, techniques and procedures. Give example of each from the framework._
+
+**Tactics:** 
+
+**Techniques:**
 
 
 ### e
 
 _Accept course rules in Moodle, so that we can talk about practical exploits._
 
-
+Done and done.
 
 ### f
 
 _Voluntary bonus: What do you consider the fundamentals of security? What are the theoretical foundations you would teach on the first day?_
+
+
