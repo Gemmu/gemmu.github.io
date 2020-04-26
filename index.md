@@ -15,7 +15,7 @@ Links to tasks here
 
 * [h1](h1.md)
 * [h2](h2.md)
-* [h3](h3.md) TODO
+* [h3](h3.md) 
 * [h4](h4.md) TODO
 * [h5](h5.md) TODO
 * [h6](h6.md) TODO
