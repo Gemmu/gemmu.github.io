@@ -1,5 +1,7 @@
 # Homework For Security Basics
 
+These are homework for course [ICT Security Basics - from Trust to Blockchain][1]
+
 There was a requirement to return homework as a website link. I did not have a
 website readily available, but GitHub pages came to rescue. So I installed
 Visual Studio Code and Git on to my Windows machine. Might as well have used the
@@ -15,3 +17,5 @@ Links to tasks here
 * [h5](h5.md)
 * [h6](h6.md)
 * [h7](h7.md)
+
+[8]: http://terokarvinen.com/2020/ict-security-basics-from-trust-to-blockchain-itc4hm003-3001-2020-spring/
