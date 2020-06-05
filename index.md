@@ -18,4 +18,4 @@ Links to tasks here
 * [h6](h6.md)
 * [h7](h7.md)
 
-[8]: http://terokarvinen.com/2020/ict-security-basics-from-trust-to-blockchain-itc4hm003-3001-2020-spring/
+[1]: http://terokarvinen.com/2020/ict-security-basics-from-trust-to-blockchain-itc4hm003-3001-2020-spring/
